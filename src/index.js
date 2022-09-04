@@ -9,7 +9,6 @@ const listEl = document.querySelector('.country-list');
 const countryEl = document.querySelector('.country-info');
 
 inputEl.addEventListener('input', debounce(requestCountry, DEBOUNCE_DELAY));
-console.log('object');
 
 function requestCountry(event) {
   const valueSearch = event.target.value.trim();
