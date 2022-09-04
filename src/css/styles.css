@@ -18,3 +18,15 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+ul {
+  list-style: none;  
+}
+
+li {
+  display: flex;
+}
+
+p {
+  padding-left: 15px;
+}
