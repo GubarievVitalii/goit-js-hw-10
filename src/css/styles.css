@@ -25,6 +25,7 @@ ul {
 
 li {
   display: flex;
+  padding-bottom: 10px;
 }
 
 p {
